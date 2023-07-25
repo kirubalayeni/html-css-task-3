@@ -1,0 +1,29 @@
+*margin{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#logo{
+    background-color: black;
+}
+#nav_li{
+    display: flex;
+    /* list-style-type: none; */
+    justify-content: space-between;
+    align-items: center;
+}
+#nav_ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+#dot{
+    border-style: dashed;
+    color: rgb(153, 151, 151);
+    
+}
